@@ -4,7 +4,8 @@ function Navbar() {
         <nav className="navbar">
             <h1>Pokemon World</h1>
             <div className="links">
-                <a href="/"></a>
+                <a href="/">Home</a>
+                <a href="/add">Add Pokemon</a>
             </div>
         </nav>
     );
