@@ -2,7 +2,7 @@
     "pokemon": [
         {
             "id": 1,
-            "name": "pickachu",
+            "name": "Pickachu",
             "type": "electric",
             "hp": 60,
             "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.pnghttps://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
@@ -10,7 +10,7 @@
 
         {
             "id": 2,
-            "name": "charmander",
+            "name": "Charmander",
             "type": "fire",
             "hp": 70,
             "image": "https://guidesarchive.ign.com/guides/12045/images/charmander.gif"     
@@ -18,7 +18,7 @@
 
         {
             "id": 3,
-            "name": "squirtle",
+            "name": "Squirtle",
             "type": "water",
             "hp": 70,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdC5lrjCsy25lbfJEkjAezGyZ4FmWn4KRDtJuO5CEJ714tAeSz62nYESuILudBQj6bDBY&usqp=CAU"
@@ -34,7 +34,7 @@
 
         {
             "id": 5,
-            "name": "tinkaton",
+            "name": "Tinkaton",
             "type": "fairy",
             "hp": 140,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHP5EJqvbFoouHZ-iza1pSMJLRrrckIqhBQ&usqp=CAU"
