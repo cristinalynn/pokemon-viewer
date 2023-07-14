@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PokemonList from "./PokemonList";
 
 function Home() {
@@ -7,6 +7,10 @@ function Home() {
         {name: "Eevee", type: "normal", hp: 70, id:2},
         {name: "Charmander", type: "fire", hp: 70, id:3}
     ]);
+
+    useEffect(() => {
+        console.log("use effect ran")
+    })
 
     return (
         <div className="home">
