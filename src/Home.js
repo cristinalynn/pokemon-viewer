@@ -10,7 +10,7 @@ function Home() {
 
     useEffect(() => {
         console.log("use effect ran")
-    })
+    }, []);
 
     return (
         <div className="home">
