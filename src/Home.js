@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div className="home">
-          <PokemonList />
+          <PokemonList  pokemon={pokemon} title="All Pokemon!"/>
         </div>
     );
 }

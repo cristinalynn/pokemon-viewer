@@ -1,6 +1,8 @@
-function PokemonList() {
+function PokemonList({ pokemon, title }) {
+    
     return (
         <div className="pokemon-list">
+            <h2>{ title }</h2>
             {pokemon.map((pokemon) => (
             <div className="pokemon-preview" key={pokemon.id}>
                <h2>{ pokemon.name }</h2>
