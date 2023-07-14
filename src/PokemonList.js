@@ -1,4 +1,4 @@
-function BlogList() {
+function PokemonList() {
     return (
         <div className="pokemon-list">
             {pokemon.map((pokemon) => (
@@ -13,4 +13,4 @@ function BlogList() {
     );
 }
  
-export default BlogList;
+export default PokemonList;

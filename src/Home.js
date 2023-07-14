@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PokemonList from "./PokemonList";
 
 function Home() {
     const [pokemon, setPokemon] = useState([
@@ -9,7 +10,7 @@ function Home() {
 
     return (
         <div className="home">
-          
+          <PokemonList />
         </div>
     );
 }
