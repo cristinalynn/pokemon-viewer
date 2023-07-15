@@ -7,12 +7,14 @@ function Create()  {
     const [hp, setHp] = useState("");
     const [image, setImage] = useState("");
 
-
+function handleSubmit(e) {
+    e.preventDefault()
+}
 
     return (
         <div className="create">
             <h2>Add a New Pokemon</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label>Pokemon Name</label>
                 <input
                    type="text"
