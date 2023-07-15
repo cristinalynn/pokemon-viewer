@@ -54,3 +54,7 @@
   color: red;
   margin-bottom: 8px;
 }
+
+.pokemon-preview a{
+  text-decoration: none;
+}
