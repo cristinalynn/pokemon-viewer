@@ -6,10 +6,13 @@ function Create()  {
     const [type, setType] = useState("");
     const [hp, setHp] = useState("");
     const [image, setImage] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
 
 function handleSubmit(e) {
     e.preventDefault();
     const pokemon = { name, type, hp, image};
+
+    setIsLoading(true);
 
     fetch("http://localhost:8000/pokemon", {
         method: "POST",
@@ -17,6 +20,7 @@ function handleSubmit(e) {
         body: JSON.stringify(pokemon)
     }).then(() => {
         console.log("new pokemon added")
+        setIsLoading(false);
     })
 }
 
@@ -52,10 +56,11 @@ function handleSubmit(e) {
                    value={image}
                    onChange={(e) => setImage(e.target.value)} 
                 />
-                <button>Add Pokemon</button>
+                {!isLoading && <button>Add Pokemon</button>}
+                {isLoading && <button disabled>Adding Pokemon...</button>}
             </form>
         </div>
     );
-}
+} 
  
 export default Create;
