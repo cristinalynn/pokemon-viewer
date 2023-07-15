@@ -1,4 +1,14 @@
+import { useState } from "react";
+
+
 function Create()  {
+    const [name, setName] = useState("");
+    const [type, setType] = useState("");
+    const [hp, setHp] = useState("");
+    const [image, setImage] = useState("");
+
+
+
     return (
         <div className="create">
             <h2>Add a New Pokemon</h2>
@@ -7,21 +17,29 @@ function Create()  {
                 <input
                    type="text"
                    required 
+                   value={name}
+                   onChange={(e) => setName(e.target.value)}
                 />
                 <label>Pokemon Type</label>
                 <input
                    type="text"
-                   required 
+                   required
+                   value={type}
+                   onChange={(e) => setType(e.target.value)} 
                 />
                 <label>Pokemon HP</label>
                 <input
                    type="text"
                    required 
+                   value={hp}
+                   onChange={(e) => setHp(e.target.value)}
                 />
                 <label>Pokemon Image</label>
                 <input
                    type="text"
-                   required 
+                   required
+                   value={image}
+                   onChange={(e) => setImage(e.target.value)} 
                 />
                 <button>Add Pokemon</button>
             </form>
