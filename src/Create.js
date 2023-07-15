@@ -8,7 +8,16 @@ function Create()  {
     const [image, setImage] = useState("");
 
 function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
+    const pokemon = { name, type, hp, image};
+
+    fetch("http://localhost:8000/pokemon", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(pokemon)
+    }).then(() => {
+        console.log("new pokemon added")
+    })
 }
 
     return (

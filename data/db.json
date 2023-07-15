@@ -1,43 +1,46 @@
 {
-    "pokemon": [
-        {
-            "id": 1,
-            "name": "Pickachu",
-            "type": "electric",
-            "hp": 60,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaUQMKmpiJnWlwlRU5a6f-aAqSLTqcBT0BdhyIAajG8mspwbWOsaVv6C2yx6Rbvq54Zpk&usqp=CAU"
-        },
-
-        {
-            "id": 2,
-            "name": "Charmander",
-            "type": "fire",
-            "hp": 70,
-            "image": "https://guidesarchive.ign.com/guides/12045/images/charmander.gif"     
-        },
-
-        {
-            "id": 3,
-            "name": "Squirtle",
-            "type": "water",
-            "hp": 70,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdC5lrjCsy25lbfJEkjAezGyZ4FmWn4KRDtJuO5CEJ714tAeSz62nYESuILudBQj6bDBY&usqp=CAU"
-        },
-        
-        {
-            "id": 4,
-            "name": "Eevee",
-            "type": "normal",
-            "hp": 70,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS13cDJDTdHVCPNfPLJ1LshYvvAS6NAXKhc2Q&usqp=CAU"
-        },
-
-        {
-            "id": 5,
-            "name": "Tinkaton",
-            "type": "fairy",
-            "hp": 140,
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHP5EJqvbFoouHZ-iza1pSMJLRrrckIqhBQ&usqp=CAU"
-        }
-    ]
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Pickachu",
+      "type": "electric",
+      "hp": 60,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaUQMKmpiJnWlwlRU5a6f-aAqSLTqcBT0BdhyIAajG8mspwbWOsaVv6C2yx6Rbvq54Zpk&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Charmander",
+      "type": "fire",
+      "hp": 70,
+      "image": "https://guidesarchive.ign.com/guides/12045/images/charmander.gif"
+    },
+    {
+      "id": 3,
+      "name": "Squirtle",
+      "type": "water",
+      "hp": 70,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdC5lrjCsy25lbfJEkjAezGyZ4FmWn4KRDtJuO5CEJ714tAeSz62nYESuILudBQj6bDBY&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Eevee",
+      "type": "normal",
+      "hp": 70,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS13cDJDTdHVCPNfPLJ1LshYvvAS6NAXKhc2Q&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "Tinkaton",
+      "type": "fairy",
+      "hp": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHP5EJqvbFoouHZ-iza1pSMJLRrrckIqhBQ&usqp=CAU"
+    },
+    {
+      "name": "hdhgfjfj",
+      "type": "gdhfkfk",
+      "hp": "40",
+      "image": "gdjfkfl",
+      "id": 6
+    }
+  ]
 }
