@@ -6,7 +6,9 @@ function Navbar() {
             <h1>Pokemon World</h1>
             <div className="links">
                 <Link to="/">Home</Link>
+                <Link to="/pokemongallery">Pokemon Gallery</Link>
                 <Link to="/create">Add a New Pokemon</Link>
+                
             </div>
         </nav>
     );
