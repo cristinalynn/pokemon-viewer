@@ -3,7 +3,8 @@ import PokemonList from "./PokemonList";
 
 function Home() {
     const [pokemon, setPokemon] = useState(null);
-       
+
+
 
     useEffect(() => {
         fetch("http://localhost:8000/pokemon")
