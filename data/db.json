@@ -48,6 +48,13 @@
       "hp": "40",
       "image": "gfhhtg",
       "id": 7
+    },
+    {
+      "name": "setIsLoading(false);",
+      "type": "hfhfjf",
+      "hp": "40",
+      "image": "fdhfhfrm",
+      "id": 8
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 
 function Create()  {
@@ -7,6 +8,7 @@ function Create()  {
     const [hp, setHp] = useState("");
     const [image, setImage] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const history = useHistory();
 
 function handleSubmit(e) {
     e.preventDefault();
@@ -19,8 +21,10 @@ function handleSubmit(e) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(pokemon)
     }).then(() => {
-        console.log("new pokemon added")
         setIsLoading(false);
+        history.push("/");
+        
+        
     })
 }
 
