@@ -20,7 +20,8 @@ function handleSubmit(e) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(pokemon)
-    }).then(() => {
+    }).then((r) =>r.json())
+      .then(() => {
         setIsLoading(false);
         history.push("/");
         
