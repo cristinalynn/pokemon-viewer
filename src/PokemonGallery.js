@@ -1,17 +1,13 @@
-import { useParams } from "react-router-dom";
 
-function PokemonGallery() {
-    const { id } = useParams();
+function PokemonGallery({pokemon}) {
     
-   
     return (
         <div className="pokemon-gallery">
-            <h2>Pokemon Gallery - { id }</h2>
-            {/* { pokemon.map((pokemon) => 
+             { pokemon.map((pokemon) => 
                 <div className="pokemon-image" key={pokemon.id}>
                     <h2>{ pokemon.name }</h2>
-                    <img>{ pokemon.image }</img>
-                </div>)} */}
+                    <img src={pokemon.image} alt={pokemon.title} />
+                </div>)}
         </div>
     );
 }
