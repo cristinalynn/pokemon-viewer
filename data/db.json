@@ -34,7 +34,13 @@
       "type": "fairy",
       "hp": 140,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHP5EJqvbFoouHZ-iza1pSMJLRrrckIqhBQ&usqp=CAU"
+    },
+    {
+      "name": "mary",
+      "type": "water",
+      "hp": "70",
+      "image": "hhjjjjkkk",
+      "id": 6
     }
-    
   ]
 }

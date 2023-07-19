@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 
-function Create()  {
+function Create({ addPokemon })  {
     const [name, setName] = useState("");
     const [type, setType] = useState("");
     const [hp, setHp] = useState("");
@@ -21,7 +21,8 @@ function handleSubmit(e) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(pokemon)
     }).then((r) =>r.json())
-      .then(() => {
+      .then((data) => {
+        addPokemon(data)
         setIsLoading(false);
         history.push("/");
         

@@ -19,6 +19,10 @@ function App() {
           setPokemon(data);
       })
   }, []);
+
+  function addPokemon(data) {
+
+  }
   
   return (
   
@@ -31,7 +35,7 @@ function App() {
                 <Home pokemon={pokemon}/>
             </Route>
             <Route path="/create">
-                <Create />
+                <Create  addPokemon={addPokemon}/>
             </Route>
             <Route path="/pokemonGallery">
                 <PokemonGallery pokemon={pokemon}/>
