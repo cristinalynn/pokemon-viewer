@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Create";
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import PokemonGallery from "./PokemonGallery";
 
 
@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   function addPokemon(data) {
-
+      setPokemon([...pokemon, data])
   }
   
   return (
