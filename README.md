@@ -1,6 +1,6 @@
 # Pokemon Viewer
 
-Welcome to Pokemon world! This is a sigle page application, using create-react-app. Users can view Pokemon and even add their own. You can find their name, type, HP and even a picture of your favorite Pokemon!
+Welcome to Pokemon world! This is a sigle page application, using create-react-app. Users can view Pokemon and even add their own. You can see their name, type, HP(hit points) and even a picture of your favorite Pokemon! When adding your own Pokemon, you can add their name, the type they are, their hit points and even an image!!
 
 # Setup
 
